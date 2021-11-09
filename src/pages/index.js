@@ -8,9 +8,8 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gobbledygook.</p>
-    <p>This is my page and I'm hosting it on Netlify, with everything stored on GitHub, because I'm trying to learn how this all works. </p>
+    <h1>Howdy, folks!</h1>
+    <p>This is the landing page for Mike Melanson, a guy who writes about technology and is learning about how to do all of this without ever getting a "server" like in the old days...</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
