@@ -7,17 +7,15 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Howdy, folks!</h1>
-    <p>This is the landing page for Mike Melanson, a guy who writes about technology and is learning about how to do all of this without ever getting a "server" like in the old days...</p>
+    <Seo title="Mike Melanson - Writer, Cyclist, Techie" />
     <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
+      src="../images/mike-melanson.jpg"
       quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
+      alt="A beardless (rare) Mike Melanson"
       style={{ marginBottom: `1.45rem` }}
     />
+    <h1>Howdy, folks!</h1>
+    <p>This is the landing page for Mike Melanson, a guy who writes about technology and is learning about how to do all of this without ever getting a "server" like in the old days...</p>
     <p>
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
