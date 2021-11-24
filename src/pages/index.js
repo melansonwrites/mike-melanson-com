@@ -17,10 +17,7 @@ const IndexPage = () => (
     <h1>Howdy, folks!</h1>
     <p>This is the landing page for Mike Melanson, a guy who writes about technology and is learning about how to do all of this without ever getting a "server" like in the old days...</p>
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+    <a class="twitter-timeline" href="https://twitter.com/rwwmike?ref_src=twsrc%5Etfw">Tweets by rwwmike</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </p>
   </Layout>
 )
