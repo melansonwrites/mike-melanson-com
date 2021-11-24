@@ -23,6 +23,7 @@ const IndexPage = () => (
     <a class="twitter-timeline" href="https://twitter.com/rwwmike?ref_src=twsrc%5Etfw">Tweets by rwwmike</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </p>
     </div>
+    </div>
   </Layout>
 )
 
