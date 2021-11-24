@@ -8,11 +8,11 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Mike Melanson - Writer, Cyclist, Techie" />
-    <StaticImage
+    <StaticImage 
       src="../images/mike-melanson.jpg"
       quality={95}
       alt="A beardless (rare) Mike Melanson"
-      style={{ marginBottom: `1.45rem` }}
+      style={{ marginBottom: `1.45rem`; float: left }}
     />
     <h1>Howdy, folks!</h1>
     <p>This is the landing page for Mike Melanson, a guy who writes about technology and is learning about how to do all of this without ever getting a "server" like in the old days...</p>
