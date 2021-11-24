@@ -16,7 +16,7 @@ const IndexPage = () => (
       style={{ marginBottom: `1.45rem`, float: left }}
     />
     </div>
-    <div width="60%"
+    <div width="60%">
     <h1>Howdy, folks!</h1>
     <p>This is the landing page for Mike Melanson, a guy who writes about technology and is learning about how to do all of this without ever getting a "server" like in the old days...</p>
     <p>
