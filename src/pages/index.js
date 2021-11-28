@@ -13,7 +13,7 @@ const IndexPage = () => (
       src="../images/mike-melanson.jpg"
       quality={95}
       alt="A beardless (rare) Mike Melanson"
-      style={{ marginBottom: `1.45rem`, float: left }}
+      style={{ marginBottom: `1.45rem` }}
     />
     </div>
     <div width="60%">
