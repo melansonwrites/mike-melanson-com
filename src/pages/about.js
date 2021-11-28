@@ -3,6 +3,7 @@ import * as React from 'react'
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Link } from "gatsby"
 
 // Step 2: Define your component
 const AboutPage = () => {
@@ -16,8 +17,9 @@ const AboutPage = () => {
       style={{ marginBottom: `1.45rem` }}
     />
    <main>
-      <title>About Me</title>
+      <title>Mike Melanson</title>
       <h1>About Me</h1>
+      <Link to="/">Back to Home</Link>
       <p>I am Mike, AKA charioteer of Mabel the dog.</p>
     </main>
     </Layout>
