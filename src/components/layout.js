@@ -33,12 +33,12 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <nav>
+       
         <ul>
-          <li><Link to="/">Home</Link>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
-      </nav>
+      
         <main>
         
         <h1>{pageTitle}</h1>
