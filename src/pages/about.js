@@ -16,12 +16,9 @@ const AboutPage = () => {
       alt="A beardless (rare) Mike Melanson"
       style={{ marginBottom: `1.45rem` }}
     />
-   <main>
       <title>Mike Melanson</title>
       <h1>About Me</h1>
-      <Link to="/">Back to Home</Link>
       <p>I am Mike, AKA charioteer of Mabel the dog.</p>
-    </main>
     </Layout>
   )
 }
