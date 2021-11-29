@@ -40,8 +40,6 @@ const Layout = ({ children }) => {
         </ul>
       
         <main>
-        
-        <h1>{pageTitle}</h1>
           {children}
         </main>
         <footer
