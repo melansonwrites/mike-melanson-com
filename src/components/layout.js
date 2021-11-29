@@ -35,8 +35,8 @@ const Layout = ({ children }) => {
       >
         <nav>
         <ul>
-          <li><Link to="/index">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to="../pages/index">Home</Link></li>
+          <li><Link to="../pages/about">About</Link></li>
         </ul>
       </nav>
         <main>
